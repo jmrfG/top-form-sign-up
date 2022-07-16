@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "norse";
+    src: url("./assets/font/Norse-Bold.otf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'norse', Courier, monospace;
+    font-size: x-large;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+}
+
+.left-section {
+    width: 40vw;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+
+.brand {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.newton {
+    margin: 0;
+    padding: 0;
+    transform: scale(0.6);
+}
+
+.left-section img {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.right-section {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form {
+    background-color: rgb(20, 20, 20);
+}
+
+.form-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 20px;
+    
+}
+
+.form-content .input {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-right: 30px;
+}
+
+.bttn {
+    margin-bottom: 10px;
+}
+
+.custom-padding {
+    padding-left: 20px;
+}
